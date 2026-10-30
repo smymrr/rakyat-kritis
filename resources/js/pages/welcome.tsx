@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../assets/logo.png';
 
 export default function Welcome() {
     return (
         <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col justify-between p-8 font-sans">
             <header className="flex justify-between items-center max-w-6xl w-full mx-auto py-4 border-b border-slate-800 pb-0">
                 <div className="flex items-center space-x-3">
-                    <img src="/images/logo.png" alt="Logo" className="h-20 w-auto" />
+                    <img src={logo} alt="Logo" className="h-20 w-auto" />
                     <span className="text-2xl font-bold tracking-tight text-cyan-400">MCMF</span>
                 </div>
             </header>
